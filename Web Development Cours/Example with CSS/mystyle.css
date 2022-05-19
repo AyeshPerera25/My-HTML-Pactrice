@@ -2,6 +2,65 @@
 body{
 
     background-color: lightblue;
+    padding: 0px;
+    
+    
 
 }
 
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    
+    background-color: rgb(127, 219, 255);
+    width: 100%;
+    height: auto;
+    position: absolute;
+    
+    
+    
+
+
+
+}
+
+li{
+    display: inline;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    
+
+}
+
+.active{
+background-color: rgb(255, 190, 144);
+
+
+}
+
+li a:hover:not(.active){
+    background-color: brown;
+    transform: scale(2,2);
+
+}
+
+.pic1{
+
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+.flower{
+    width: 100px;
+    height: 100px;
+    
+
+}
+.flower:hover{
+    transform: scale(2,2);
+    
+}
